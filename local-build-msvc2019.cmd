@@ -11,6 +11,9 @@ SET PATH=^
 %DOWNLOAD_DIR%\PortableGit\bin;^
 %DOWNLOAD_DIR%\cmake-3.22.2-windows-x86_64\bin;
 
+
+@REM https://storage.googleapis.com/tensorflow/libtensorflow/libtensorflow-cpu-windows-x86_64-2.6.0.zip
+
 @REM -Dtensorflow_ROOT="%DOWNLOAD_DIR_LINUX%/libtensorflow-gpu-windows-x86_64-2.6.0" ^
 @REM gpu needs CUDA dlls
 cmake -G "Visual Studio 16 2019" -A x64 ^
