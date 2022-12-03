@@ -3,7 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${env:USERPROFILE}/Downloads/libtensorflow-cpu-windows-x86_64-2.6.0/include/**"
             ],
             "defines": [
                 "_DEBUG",
